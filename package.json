@@ -1,59 +1,36 @@
 {
-  "name": "vishal-pandey-portfolio",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://YOUR-GITHUB-USERNAME.github.io/vishal-pandey-portfolio",
-  "dependencies": {
-    "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.5",
-    "@fortawesome/free-brands-svg-icons": "^6.5.2",
-    "@fortawesome/free-regular-svg-icons": "^6.5.2",
-    "@fortawesome/free-solid-svg-icons": "^6.5.2",
-    "@fortawesome/react-fontawesome": "^0.2.2",
-    "@mui/icons-material": "^5.15.19",
-    "@mui/material": "^5.15.19",
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.98",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
-    "react-vertical-timeline-component": "^3.6.0",
-    "sass": "^1.77.4",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+    "name": "@xtuc/long",
+    "version": "4.2.2",
+    "author": "Daniel Wirtz <dcode@dcode.io>",
+    "description": "A Long class for representing a 64-bit two's-complement integer value.",
+    "main": "src/long.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dcodeIO/long.js.git"
+    },
+    "bugs": {
+        "url": "https://github.com/dcodeIO/long.js/issues"
+    },
+    "keywords": [
+        "math"
     ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@types/react-vertical-timeline-component": "^3.3.6"
-  }
+    "dependencies": {},
+    "devDependencies": {
+        "webpack": "^3.10.0"
+    },
+    "license": "Apache-2.0",
+    "scripts": {
+        "build": "webpack",
+        "test": "node tests"
+    },
+    "files": [
+        "index.js",
+        "LICENSE",
+        "README.md",
+        "src/long.js",
+        "dist/long.js",
+        "dist/long.js.map",
+        "index.d.ts"
+    ],
+    "types": "index.d.ts"
 }
